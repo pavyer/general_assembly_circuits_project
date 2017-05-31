@@ -30,10 +30,6 @@ nav {
     background: #E8C66A;
 }
 
-#focal-point {
-    text-align: center;
-}
-
 .above-fold {
     background-image: url("images/Hyperion_1.jpg");
     background-size: cover;
@@ -59,10 +55,6 @@ section {
 main section a {
     display: block;
     float: left;
-}
-
-main section div {
-    
 }
 
 .booksay {
