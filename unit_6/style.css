@@ -13,7 +13,7 @@ body {
 }
 
 img {
-    width:400px;
+    width:100%;
 }
 
 header {
@@ -53,12 +53,16 @@ section {
 }
 
 main section a {
+    width: 33.3%;
     display: block;
     float: left;
+    padding: 2em;
 }
 
 .booksay {
-    float: right;
+    width: 66.6%
+    float: left;
+    padding: 2em;
 }
 
 .clearfix:after {
