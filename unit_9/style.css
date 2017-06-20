@@ -36,13 +36,14 @@ nav {
   background-size: cover;
   padding: 10em 0 50em 0;
   height: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 #above-fold a {
   color: Cornsilk;
   display: block;
   text-align: center;
+  padding: 1em;
 }
 
 h1 {
@@ -66,7 +67,9 @@ main section a {
 .booksay {
   width: 66.6%;
   float: left;
-  padding: 2em;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2em 10em;
 }
 
 .clearfix:after {
@@ -101,27 +104,36 @@ main>p {
     max-width: 600px;
 }
 
-.booksay {
-    max-width: 1200px;
-    margin: auto;
-    padding: 2em 10em;
+@media screen and (max-width: 1150px){
+  #above-fold {
+    background-image: url("#");
+  }
+
 }
 
 @media screen and (max-width: 1000px){
-  
   #above-fold {
     background-image: url("images/Hyperion_3.jpg");
   }
   
   main section a, .booksay{
-    float: none;
-    width: auto;
+    float: left;
+    /*width: 50%;
+    width: auto;*/ /*With border-box width: 100% or width: auto are the same. When specified the box occupies all the horizontal space available within the conatining box*/
+    margin: auto; /*http://www.456bereastreet.com/archive/201112/the_difference_between_widthauto_and_width100*/
+    padding: 2em 2em;
   }
 }
 
 @media screen and (max-width: 800px){
-  .booksay {
-      margin: auto;
-      padding: 2em 2em;
+  #above-fold {
+    background-image: url("#");
+  }
+
+  main section a, .booksay {
+    float: none;
+    width: auto;
+    margin: auto;
+    padding: 2em 2em;
   }
 }
