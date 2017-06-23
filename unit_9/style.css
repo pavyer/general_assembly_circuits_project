@@ -34,16 +34,18 @@ nav {
 #above-fold {
   background-image: url("images/Hyperion_1.jpg");
   background-size: cover;
-  padding: 10em 0 50em 0;
+  padding: 10em 0 30em 0;
   height: auto;
   width: 100%;
 }
 
+#above-fold p {
+  text-align: center;
+  padding: 1em 0;
+}
 #above-fold a {
   color: Cornsilk;
-  display: block;
-  text-align: center;
-  padding: 1em;
+  
 }
 
 h1 {
@@ -96,6 +98,8 @@ p {
 
 footer {
   background: #FF957E;
+  margin: 1em 0.75em 3em 0.75em;
+  text-align: center;
 }
 
 main>p {
@@ -106,7 +110,8 @@ main>p {
 
 @media screen and (max-width: 1150px){
   #above-fold {
-    background-image: url("#");
+    background-image: url("images/Hyperion_3.jpg");
+    padding: 5em 0 20em 0;
   }
 
 }
@@ -114,6 +119,7 @@ main>p {
 @media screen and (max-width: 1000px){
   #above-fold {
     background-image: url("images/Hyperion_3.jpg");
+    padding: 5em 0 20em 0;
   }
   
   main section a, .booksay{
@@ -127,7 +133,8 @@ main>p {
 
 @media screen and (max-width: 800px){
   #above-fold {
-    background-image: url("#");
+    background-image: url("images/Hyperion_3.jpg");
+    padding: 2em 0 8em 0;
   }
 
   main section a, .booksay {
@@ -136,4 +143,65 @@ main>p {
     margin: auto;
     padding: 2em 2em;
   }
+  main section a {
+    padding: 0;
+    margin: 2em;
+  }
+}
+
+@media screen and (max-width: 650px){
+  #above-fold {
+    background-image: url("images/Hyperion_3.jpg");
+    padding: 2em 0 5em 0;
+  }
+
+  main section a, .booksay {
+    float: none;
+    width: auto;
+    margin: auto;
+    padding: 2em 2em;
+  }
+  main section a {
+    padding: 0;
+    margin: 2em;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #above-fold {
+    background-image: url("images/Hyperion_3.jpg");
+    padding: 2em 0 2em 0;
+  }
+
+  main section a, .booksay {
+    float: none;
+    width: auto;
+    margin: auto;
+    padding: 2em 2em;
+  }
+
+  main section a {
+    padding: 0;
+    margin: 2em;
+  }
+
+}
+
+@media screen and (max-width: 450px){
+  #above-fold {
+    background-image: url("images/Hyperion_3.jpg");
+    padding: 0;
+  }
+
+  main section a, .booksay {
+    float: none;
+    width: auto;
+    margin: auto;
+    padding: 2em 2em;
+  }
+  
+  main section a {
+    padding: 0;
+    margin: 2em;
+  }  
 }
